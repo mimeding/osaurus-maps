@@ -48,18 +48,18 @@
   },
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "release_date": "2025-12-22",
       "artifacts": [
         {
           "os": "macos",
           "arch": "arm64",
           "min_macos": "13.0",
-          "url": "https://github.com/dinoki-ai/osaurus-maps/releases/download/1.0.0/osaurus.maps-1.0.0.zip",
-          "sha256": "1b9548e7e03cc59e2551c571f47fd5a87f8d1fe60afa0642322cf3ba20c89d76",
-          "size": 90374,
+          "url": "https://github.com/dinoki-ai/osaurus-maps/releases/download/1.0.1/osaurus.maps-1.0.1.zip",
+          "sha256": "e749958ca06daedf2013c7f6a0f3479f4e43af55f2d65d47a07145f187d5b414",
+          "size": 90450,
           "minisign": {
-            "signature": "untrusted comment: signature from minisign secret key\nRWQ7C4tF5waprbcC9Y+Ltz1QlaLx7NbjjXIPpWkCJO/H5AU5Jyqr7Pu8fmUSC2kc0oAJltz/4KnsuLgh3OG9n1YhprmTVT6LmQs=\ntrusted comment: timestamp:1766433191\tfile:osaurus.maps-1.0.0.zip\n8TPXnlPQz6t0rd+//gsAb5N4ud7W34400lyVmv+JUxa2JPmZYaDvJBc9u7Z/r3rA/M8z1jyl9LKgTrDvG3FNCw=="
+            "signature": "untrusted comment: signature from minisign secret key\nRWQ7C4tF5waprZ9h42deHNLT4s0TFEiA/J8IPB+nlKqlQRzGTQQKjCe17CQSuTNzmY0Bx1D2eyQ6SXIzr48wSVU4XOcvcVe8Xw8=\ntrusted comment: timestamp:1766437323\tfile:osaurus.maps-1.0.1.zip\nNXkTIn0uzribTrT1Ilrj32QRcsDfVzZJHc4t4FHmH86/puElQteX0q9dSxgTMyQ5kD9YaRq6kXTjWNru0ZkLAw=="
           }
         }
       ]
