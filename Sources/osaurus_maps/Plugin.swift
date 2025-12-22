@@ -68,7 +68,7 @@ private var api: osr_plugin_api = {
   api.get_manifest = { ctxPtr in
     let manifest = """
       {
-          "plugin_id": "osaurus.maps",
+        "plugin_id": "osaurus.maps",
         "version": "0.1.0",
         "description": "Apple Maps integration plugin",
         "capabilities": {
@@ -97,7 +97,8 @@ private var api: osr_plugin_api = {
                 },
                 "required": ["name", "address"]
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["maps"]
             },
             {
               "id": "maps_get_directions",
@@ -124,7 +125,8 @@ private var api: osr_plugin_api = {
                 },
                 "required": ["name", "address"]
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["maps"]
             },
             {
               "id": "maps_list_guides",
@@ -134,7 +136,8 @@ private var api: osr_plugin_api = {
                 "properties": {},
                 "required": []
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["maps"]
             },
             {
               "id": "maps_add_to_guide",
@@ -147,7 +150,8 @@ private var api: osr_plugin_api = {
                 },
                 "required": ["locationAddress", "guideName"]
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["maps"]
             },
             {
               "id": "maps_create_guide",
@@ -159,7 +163,8 @@ private var api: osr_plugin_api = {
                 },
                 "required": ["guideName"]
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["maps"]
             },
             {
               "id": "maps_get_current_location",
