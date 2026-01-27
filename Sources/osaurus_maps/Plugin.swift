@@ -69,8 +69,12 @@ private var api: osr_plugin_api = {
     let manifest = """
       {
         "plugin_id": "osaurus.maps",
-        "version": "0.1.0",
+        "name": "Maps",
         "description": "Apple Maps integration plugin",
+        "license": "MIT",
+        "authors": ["Dinoki Labs"],
+        "min_macos": "13.0",
+        "min_osaurus": "0.5.0",
         "capabilities": {
           "tools": [
             {
