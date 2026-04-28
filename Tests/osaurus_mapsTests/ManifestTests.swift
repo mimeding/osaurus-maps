@@ -95,6 +95,11 @@ struct ManifestTests {
     }
 
     #expect(map["maps_get_current_location"]?["requirements"] as? [String] == ["location"])
+    #expect(map["maps_get_directions"]?["requirements"] as? [String] == ["location"])
+
+    let directionsDescription =
+      (map["maps_get_directions"]?["description"] as? String ?? "").lowercased()
+    #expect(directionsDescription.contains("current location"))
   }
 
   @Test("tools with location inputs declare required parameters")

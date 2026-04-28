@@ -106,7 +106,7 @@ private var api: osr_plugin_api = {
             },
             {
               "id": "maps_get_directions",
-              "description": "Get directions between two locations",
+              "description": "Get directions between two locations. Passing 'current location' or 'here' as the starting point uses Location access.",
               "parameters": {
                 "type": "object",
                 "properties": {
@@ -116,7 +116,8 @@ private var api: osr_plugin_api = {
                 },
                 "required": ["fromAddress", "toAddress"]
               },
-              "permission_policy": "ask"
+              "permission_policy": "ask",
+              "requirements": ["location"]
             },
             {
               "id": "maps_drop_pin",
